@@ -13,7 +13,7 @@ else:
             print("Wrong Guess, Try smaller number")
         else:
             if usr_guess < 1:
-                print("Please Enter a Number greeater than 0.")
+                print("Hello.")
             print("Wrong Guess, Try larger number")
         usr_guess = int(input("Guess the Number From 1 to 100: "))
         atmpt += 1
